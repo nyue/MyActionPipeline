@@ -14,8 +14,7 @@ if (sys.version_info[0] <= 2) or (sys.version_info[0] == 2 and sys.version_info[
         script_args.append('--no-compile')
 
 setup(
-    name='python_action',from .context import sample
-
+    name='python_action',
     version='0.0.1',
     description='GitHub Action for Python ',
     long_description=readme,
