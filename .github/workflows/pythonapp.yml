@@ -27,4 +27,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest --cov=snetwork tests
+        pytest --cov-fail-under=100 --cov=snetwork tests
